@@ -1,0 +1,60 @@
+#discografia {
+	background-color: black;
+	height: 400px;
+	width: 100%;
+}
+
+#material {
+	background-color: blue;
+	height: 400px;
+	width: 100%;
+}
+
+#links {
+	background-color: green;
+	height: 400px;
+	width: 100%;
+}
+
+#logo01 {
+	display: inline;
+	position: relative;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 {
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+}
+
+.logoMain {
+	position: relative;
+	left: auto;
+	right: auto;
+	margin: 0px;
+	padding: 0px;
+	width: 500px;
+	max-width: 500px;
+}
+
+.tapaDisc {
+	position: relative;
+	max-height: 400px;
+}
+
+.videos {
+	position: relative;
+	height: 400px;
+	max-height: 400px;
+}
+
+.temon {
+	width: 50%;
+	position: relative;
+	margin: 10px auto 10px auto;
+}
