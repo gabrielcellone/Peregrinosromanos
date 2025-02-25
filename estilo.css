@@ -1,7 +1,17 @@
-body {
-	overflow-y: hidden;
-}
 
+body {
+    overflow-y: hidden;
+	background-color: rgba(255, 208, 0, 0.733);
+    text-align: center;
+    position: relative;
+    margin: 5px;
+    padding: 15px 32px;
+    max-width: 1200px;
+              }
+
+			  body2 {
+				
+			}
 #menu01 {
 	position: fixed;
 	top: 0px;
@@ -47,11 +57,12 @@ body {
 	width: 100%;
 	height: 100vh;
 	margin: 40px auto;
-
+	border: 0.5px dotted white ;
 	padding: 0px;
 	padding-top: 40px;
-	background-color: green;
-}
+	background-color: rgb(17, 17, 17);
+	color: white;
+	}
 
 #logo01 {
 	display: block;
@@ -110,3 +121,33 @@ footer {
 	position: relative;
 	margin: 10px auto 10px auto;
 }
+
+.img-responsive  {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align:justify
+    background-color: #314652;
+    color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+     }
+
+	 .henny-penny-regular {
+		font-family: "Henny Penny", serif;
+		font-weight: 400;
+		font-style: normal;
+	  }
+	
+	.fondogris {
+		text-align: center;
+	  text-justify: distribute-all-lines;
+	  background-color: rgb(17, 17, 17);
+	  color: white;
+	  padding: 15px;
+	  border: 0.5px dotted white ;
+	  margin: 5px;
+		   }
